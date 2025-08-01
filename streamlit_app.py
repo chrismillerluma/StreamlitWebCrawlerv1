@@ -17,11 +17,11 @@ PATHS = [
     "/OpenScheduling/"
 ]
 
-st.set_page_config(page_title="Open Scheduling Hyperlink Finder", layout="wide")
-st.title("🌐 Open Scheduling Finder")
+st.set_page_config(page_title="Publicly accessible Open Scheduling hyperlinks finder.", layout="wide")
+st.title("🌐 Publicly accessible Open Scheduling hyperlinks finder")
 st.markdown("Enter one domain per line or upload a CSV file.")
 
-domains_input = st.text_area("Enter domains (e.g. `mychart.rush.edu`):", height=150)
+domains_input = st.text_area("Enter domains (e.g. `Some.OrgName.edu`):", height=150)
 uploaded_file = st.file_uploader("Or upload a CSV with domains", type=["csv"])
 
 domains = []
