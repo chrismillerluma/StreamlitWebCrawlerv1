@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-import beautifulsoup
+from bs4 import BeautifulSoup
 import pandas as pd
 import concurrent.futures
 
