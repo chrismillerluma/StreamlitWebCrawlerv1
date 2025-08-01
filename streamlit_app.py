@@ -17,8 +17,8 @@ PATHS = [
     "/OpenScheduling/"
 ]
 
-st.set_page_config(page_title="Epic Open Scheduling Finder", layout="wide")
-st.title("🌐 Epic MyChart Open Scheduling Finder")
+st.set_page_config(page_title="Open Scheduling Hyperlink Finder", layout="wide")
+st.title("🌐 Open Scheduling Finder")
 st.markdown("Enter one domain per line or upload a CSV file.")
 
 domains_input = st.text_area("Enter domains (e.g. `mychart.rush.edu`):", height=150)
